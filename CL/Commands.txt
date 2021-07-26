@@ -1,0 +1,11 @@
+#CommandName,ReturnType,ParameterTypes,Windows,Linux,Mac,Android,iOS,Windows64
+Count,I,0,CL_Count,0,0,0,0,CL_Count
+Get,S,I,CL_Get,0,0,0,0,CL_Get
+SetDropEnable,I,SI,CL_SetDrop,0,0,0,0,CL_SetDrop
+DropCount,I,0,CL_DropCount,0,0,0,0,CL_DropCount
+DropGet,S,I,CL_DropGet,0,0,0,0,CL_DropGet
+DropClear,0,0,CL_DropClear,0,0,0,0,CL_DropClear
+GetPathPart,S,S,CL_GetPathPart,0,0,0,0,CL_GetPathPart
+GetFilePart,S,SI,CL_GetFilePart,0,0,0,0,CL_GetFilePart
+GetExtPart,S,SI,CL_GetExtPart,0,0,0,0,CL_GetExtPart
+GetMIMEType,S,S,CL_GetMIMEType,0,0,0,0,CL_GetMIMEType

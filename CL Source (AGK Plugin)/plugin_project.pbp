@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.73 LTS (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="CLFile (AGK Plugin)"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\Program Files\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2021-07-26 17:43" user="Dean" host="DESKTOP-6AB2LE2"/>
+  </section>
+  <section name="files">
+    <file name="plugin_main.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="9bbb1c9acb3baa5edfd4c21c6e1f57a2"/>
+    </file>
+    <file name="AGKPluginWrapper.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="40eb97add6fa8dbd867742b19114b152"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="plugin_main.pb"/>
+      <outputfile value="C:\Program Files (x86)\The Game Creators\AGK2\Tier 1\Compiler\Plugins\CL\Windows.dll"/>
+      <executable value="C:\Program Files (x86)\The Game Creators\AGK2\Tier 1\Compiler\Plugins\CL\Windows64.dll"/>
+      <options xpskin="1"/>
+      <format exe="dll" cpu="0"/>
+    </target>
+  </section>
+</project>
