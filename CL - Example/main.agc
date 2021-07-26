@@ -110,41 +110,5 @@ Function LoadSpriteFromImage(image as string, x, y)
 	
 EndFunction
 
-/* Functions
-
-integer CL.Count() ; Counts the number of command line arguments.
-string CL.Get(integer index) Get a command lne argument.
-integer CL.SetDropEnable(string window_title, integer state) ; Sets file drop state for the window (1=enable, 0=disable)
-integer CL.DropCount() ; Count files dropped on the window.
-string CL.DropGet(integer index) ; Get a file dropped on the window.
-void CL.DropClear() ; Clear the file drop list.
-
-string CL.GetMIMEType(string ext) ; Get a files MIME type from its extension.
-string CL.GetPathPart(string ext) ; Get the path part of a full file path.
-string CL.GetFilePart(string ext, integer include_ext) ; Get the file part of a file or path.
-string CL.GetExtPart(string ext, integer include_dot) ; Get the extension part of a file or path.
-
-*/
-
-/* Description
-
-	CL or CommandLine plugin enables access to any commandline arguments passed to the AGK executible.
-	
-	It also enables 'file drop' on the window so you can drag n drop files from explorer directly onto the AGK window.
-
-
-*/
-
-/* ChangeLog:
-
-	v1.1
-	Added: CL.GetMIMEType(string ext) Get a files MIME type from its extension.
-	Added: CL.GetPathPart(string ext) Get the path part of a full file path.
-	Added: CL.GetFilePart(string ext, integer include_ext) Get the file part of a file or path.
-	Added: CL.GetExtPart(string ext, integer include_dot) Get the extension part of a file or path.
-
-	v1.0 - Release
-
-*/
 
 
